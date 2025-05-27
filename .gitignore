@@ -51,4 +51,7 @@ temp/
 
 # Batch files with tokens (security)
 *_upload.bat
-*token*.bat 
+*token*.bat
+
+# Embedded repositories
+AdvantageAI/ 
