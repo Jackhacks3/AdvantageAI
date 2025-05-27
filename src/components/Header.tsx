@@ -20,6 +20,7 @@ const Header: React.FC = () => {
     { name: 'Benefits', href: '#benefits', isRoute: false },
     { name: 'Process', href: '#process', isRoute: false },
     { name: 'Research', href: '/research', isRoute: true },
+    { name: 'AI Impact Study', href: '/ai-business-impact', isRoute: true },
     { name: 'About', href: '#about', isRoute: false },
     { name: 'Contact', href: '#contact', isRoute: false },
   ];

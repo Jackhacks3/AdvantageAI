@@ -1,4 +1,5 @@
 import { ChevronRightIcon, DocumentTextIcon, ArrowTrendingUpIcon, CogIcon, ChartBarIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
 
 const Research = () => {
   return (
@@ -26,6 +27,23 @@ const Research = () => {
 
       {/* Table of Contents */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Related Research Banner */}
+        <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg p-6 mb-8">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="mb-4 md:mb-0">
+              <h3 className="text-xl font-semibold mb-2">📊 New Research Available</h3>
+              <p className="text-blue-100">Comprehensive analysis of AI's impact on business success with latest 2024-2025 data</p>
+            </div>
+            <Link
+              to="/ai-business-impact"
+              className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors inline-flex items-center"
+            >
+              View AI Impact Study
+              <ArrowTrendingUpIcon className="ml-2 h-5 w-5" />
+            </Link>
+          </div>
+        </div>
+
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Table of Contents</h2>
           <div className="grid md:grid-cols-2 gap-4">
